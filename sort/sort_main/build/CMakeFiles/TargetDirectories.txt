@@ -1,0 +1,5 @@
+/home/huanglei/Documents/data_struct/sort/sort_main/build/CMakeFiles/edit_cache.dir
+/home/huanglei/Documents/data_struct/sort/sort_main/build/CMakeFiles/rebuild_cache.dir
+/home/huanglei/Documents/data_struct/sort/sort_main/build/src/CMakeFiles/rebuild_cache.dir
+/home/huanglei/Documents/data_struct/sort/sort_main/build/src/CMakeFiles/edit_cache.dir
+/home/huanglei/Documents/data_struct/sort/sort_main/build/src/CMakeFiles/main.dir

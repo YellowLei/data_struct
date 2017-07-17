@@ -1,0 +1,7 @@
+/home/ubuntu/data_struct/sort/lib_sort/build/CMakeFiles/edit_cache.dir
+/home/ubuntu/data_struct/sort/lib_sort/build/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/data_struct/sort/lib_sort/build/src/CMakeFiles/edit_cache.dir
+/home/ubuntu/data_struct/sort/lib_sort/build/src/CMakeFiles/sort.dir
+/home/ubuntu/data_struct/sort/lib_sort/build/src/CMakeFiles/sort_static.dir
+/home/ubuntu/data_struct/sort/lib_sort/build/src/CMakeFiles/main.dir
+/home/ubuntu/data_struct/sort/lib_sort/build/src/CMakeFiles/rebuild_cache.dir

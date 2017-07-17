@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/main.dir/main.cpp.o  -o ../../bin/main ../../lib/libsort.so.1.2 -Wl,-rpath,/home/ubuntu/data_struct/sort/lib_sort/lib 

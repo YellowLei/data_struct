@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/huanglei/Documents/data_struct/search/search_main/src/main.cpp
+iostream
+-
+stdio.h
+-
+search.h
+/home/huanglei/Documents/data_struct/search/search_main/src/search.h
+
+/home/huanglei/Documents/data_struct/search/search_main/src/search.h
+

@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/newsort.dir/main.cpp.o  -o ../../bin/newsort  -L/home/huanglei/Documents/data_struct/sort/lib 

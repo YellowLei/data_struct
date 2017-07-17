@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC   -shared -Wl,-soname,libsort.so.1 -o ../../lib/libsort.so.1.2 CMakeFiles/sort.dir/sort.cpp.o 

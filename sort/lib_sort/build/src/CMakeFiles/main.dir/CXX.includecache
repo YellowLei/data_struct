@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ubuntu/data_struct/sort/lib_sort/src/main.cpp
+sort.h
+/home/ubuntu/data_struct/sort/lib_sort/src/sort.h
+iostream
+-
+
+/home/ubuntu/data_struct/sort/lib_sort/src/sort.h
+string.h
+-
+math.h
+-
+

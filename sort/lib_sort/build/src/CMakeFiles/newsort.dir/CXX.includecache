@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/huanglei/Documents/data_struct/sort/src/main.cpp
+sort.h
+/home/huanglei/Documents/data_struct/sort/src/sort.h
+iostream
+-
+
+/home/huanglei/Documents/data_struct/sort/src/sort.h
+

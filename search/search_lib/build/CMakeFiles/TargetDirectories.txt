@@ -1,0 +1,7 @@
+/home/ubuntu/data_struct/search/search_lib/build/CMakeFiles/edit_cache.dir
+/home/ubuntu/data_struct/search/search_lib/build/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/data_struct/search/search_lib/build/src/CMakeFiles/edit_cache.dir
+/home/ubuntu/data_struct/search/search_lib/build/src/CMakeFiles/search.dir
+/home/ubuntu/data_struct/search/search_lib/build/src/CMakeFiles/search_static.dir
+/home/ubuntu/data_struct/search/search_lib/build/src/CMakeFiles/main.dir
+/home/ubuntu/data_struct/search/search_lib/build/src/CMakeFiles/rebuild_cache.dir

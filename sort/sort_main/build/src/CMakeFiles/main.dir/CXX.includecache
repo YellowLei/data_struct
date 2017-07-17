@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../lib_sort/src/sort.h
+string.h
+-
+math.h
+-
+
+/home/huanglei/Documents/data_struct/sort/sort_main/src/main.cpp
+sort.h
+/home/huanglei/Documents/data_struct/sort/sort_main/src/sort.h
+iostream
+-
+

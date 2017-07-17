@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../../sort/lib_sort/src/sort.h
+string.h
+-
+math.h
+-
+
+/home/ubuntu/data_struct/search/search_lib/src/AVLTree.h
+iostream
+-
+stdlib.h
+-
+
+/home/ubuntu/data_struct/search/search_lib/src/binaryTree.h
+stdlib.h
+-
+
+/home/ubuntu/data_struct/search/search_lib/src/main.cpp
+iostream
+-
+search.h
+/home/ubuntu/data_struct/search/search_lib/src/search.h
+sort.h
+/home/ubuntu/data_struct/search/search_lib/src/sort.h
+stdio.h
+-
+
+/home/ubuntu/data_struct/search/search_lib/src/search.h
+sort.h
+/home/ubuntu/data_struct/search/search_lib/src/sort.h
+math.h
+/home/ubuntu/data_struct/search/search_lib/src/math.h
+binaryTree.h
+/home/ubuntu/data_struct/search/search_lib/src/binaryTree.h
+AVLTree.h
+/home/ubuntu/data_struct/search/search_lib/src/AVLTree.h
+

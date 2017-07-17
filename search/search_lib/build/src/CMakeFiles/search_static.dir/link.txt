@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libsearch.a  CMakeFiles/search_static.dir/search.cpp.o CMakeFiles/search_static.dir/binaryTree.cpp.o CMakeFiles/search_static.dir/AVLTree.cpp.o
+/usr/bin/ranlib ../../lib/libsearch.a
