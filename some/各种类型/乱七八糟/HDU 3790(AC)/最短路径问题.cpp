@@ -1,0 +1,92 @@
+#include<iostream>
+#include<cstdio>
+using namespace std;
+const int maxn=1010;
+int n,m,a,b,d,p,s,t,c[maxn][maxn],e[maxn][maxn],dis1[maxn],dis2[maxn],book[maxn],i,j,min1,u,v;
+int inf = 999999;
+int main()
+{
+    while(scanf("%d%d",&n,&m),n+m)
+    {
+      //初始化各条边的值
+        for(i=1;i<=n;i++)
+        {
+            for(j=1;j<=n;j++)
+            {
+                if(i==j)
+                {
+                    e[i][j]=0;
+                    c[i][j]=0;
+                }
+                else
+                    {
+                        e[i][j]=inf;
+                        c[i][j]=inf;
+                    }
+            }
+        }
+        //输入每条边的权值
+        for(i=1;i<=m;i++)
+        {
+            scanf("%d%d%d%d",&a,&b,&d,&p);
+            if(e[a][b]==inf&&c[a][b]==inf)
+            {
+                e[b][a]=e[a][b]=d;//距离
+                c[b][a]=c[a][b]=p;//花费
+            }
+            else//处理重边
+            {
+                if(e[a][b]>d||(e[a][b]==d&&c[a][b]>p))
+                {
+                    e[a][b]=e[b][a]=d;
+                    c[a][b]=c[b][a]=p;
+                }
+            }
+        }
+        //输入起点和终点
+        scanf("%d%d",&s,&t);
+        //初始化源点到各边的距离及花费
+        for(i=1;i<=n;i++)
+        {
+            dis1[i]=e[s][i];
+            dis2[i]=c[s][i];
+        }
+        for(i=1;i<=n;i++)
+        {
+            book[i]=0;
+        }
+        book[s]=1;
+        for(i=1;i<=n;i++)
+        {
+            min1=inf;
+            for(j=1;j<=n;j++)
+            {
+                if(book[j]==0&&dis1[j]<min1)
+                {
+                    min1=dis1[j];
+                    u=j;
+                }
+            }
+            book[u]=1;
+            for(v=1;v<=n;v++)
+            {
+                if(e[u][v]<inf)
+                {
+                    if(dis1[v]>dis1[u]+e[u][v])
+                    {
+                        dis1[v]=dis1[u]+e[u][v];
+                        dis2[v]=dis2[u]+c[u][v];
+                    }
+                    else if(dis1[v]==dis1[u]+e[u][v])
+                    {
+                        if(dis2[v]>dis2[u]+c[u][v])
+                        {
+                            dis2[v]=dis2[u]+c[u][v];
+                        }
+                    }
+                }
+            }
+        }
+        printf("%d %d\n",dis1[t],dis2[t]);
+    }
+}
